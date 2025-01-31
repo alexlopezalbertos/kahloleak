@@ -39,7 +39,7 @@ def check_answer(answer, full_answer):
         st.session_state.wrong_answer = True
 
 # UI
-st.title("The mystery of the leaking Kahlo bottles")
+st.title("The mystery of the leaking bottles")
 
 # Progress Bar
 progress = (st.session_state.current_step / len(questions)) if len(questions) > 0 else 0
