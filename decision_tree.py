@@ -102,4 +102,4 @@ with col2:
 with col3:
     # st.image("bottle.png", use_column_width=True)
     # st.image("pic3.jpeg")
-    st.image("pic1.png", use_column_width=True)
+    st.image("pic1.png")
