@@ -6,9 +6,12 @@ st.set_page_config(
     layout="wide"
 )
 
-col1, col2 = st.columns([0.7, 0.3])
+col1, col2, col3 = st.columns([0.33, 0.33, 0.33], gap="large")
 
 with col1:
+    st.image("pic3.jpeg")
+
+with col2:
     # Define the questions, choices, and correct answers
     questions = [
         "What is Marielle's last name?",
@@ -96,7 +99,7 @@ with col1:
 
     # st.image("pic3.jpeg")
 
-with col2:
-    st.image("bottle.png")
+with col3:
+    # st.image("bottle.png", use_column_width=True)
     # st.image("pic3.jpeg")
-    # st.image("pic1.jpeg")
+    st.image("pic1.png", use_column_width=True)
